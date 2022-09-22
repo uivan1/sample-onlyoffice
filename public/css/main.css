@@ -1,0 +1,55 @@
+html,
+body {
+  font-family: monospace;
+  height: 100%;
+  margin: 0;
+  background-color: lavender;
+  color: aliceblue;
+}
+
+h1 {
+  color: lightslategray;
+  display: inline-block;
+}
+
+#placeholder {
+  height: 100%;
+}
+
+#documents {
+  text-align: center;
+}
+
+#document-controls {
+  text-align: center;
+  margin: 5px;
+}
+
+#document-controls>div {
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px;
+  background: mediumaquamarine;
+}
+
+#documents-list {
+  padding: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.document {
+  cursor: pointer;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  margin: 2px;
+  background-color: lightsteelblue;
+}
+
+.delete-doc {
+  color: lightslategray;
+  float: right;
+  margin: 0 5px 0 5px;
+}

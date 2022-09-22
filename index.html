@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>OnlyOffice Example</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="stylesheet" href="/public/css/main.css">
+</head>
+
+<body>
+  <div id="placeholder"></div>
+  <div id="documents">
+    <h1>Documents</h1>
+    <div id="document-controls">
+      <div onclick="createDocument('.docx')">Create docx</div>
+      <div onclick="createDocument('.xlsx')">Create xlsx</div>
+      <div onclick="createDocument('.pptx')">Create pptx</div>
+    </div>
+  </div>
+  <!-- <script type="text/javascript" src="http://localhost:8080/web-apps/apps/api/documents/api.js"></script> -->
+  <script type="text/javascript" src="http://127.0.0.1:8080/web-apps/apps/api/documents/api.js"></script>
+  <script type="text/javascript" src="/public/javascript/main.js"></script>
+</body>
+
+</html>
